@@ -1,5 +1,4 @@
-﻿// src/NavBar.jsx
-import useAuth from "./useAuth";
+﻿import useAuth from "./useAuth";
 
 export default function NavBar() {
     const { user, loading } = useAuth();
