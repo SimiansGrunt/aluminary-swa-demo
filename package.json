@@ -2,6 +2,9 @@
   "name": "aluminary-swa-demo",
   "version": "0.1.0",
   "private": true,
+  "rules": {
+    "unicode-bom": ["error", "never"]
+  },
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.7.0",
