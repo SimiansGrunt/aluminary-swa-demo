@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function useAuth() {
     const [user, setUser] = useState(null);     // { identityProvider, userId, userDetails, roles[] }
