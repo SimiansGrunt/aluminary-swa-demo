@@ -1,4 +1,4 @@
-// src/App.js
+﻿// src/App.js
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import useAuth from "./useAuth";
 import NavBar from "./NavBar";
